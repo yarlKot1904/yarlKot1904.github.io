@@ -1,0 +1,47 @@
+*{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+section{
+	position: relative;
+	width: 100%;
+	height: 850px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5em;
+	font-weight: 800;
+}
+section:nth-child(odd){
+	background:#CC6699;
+}
+section:nth-child(even){
+	background:#9933CC;
+}
+nav{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background:#000033;
+	text-align: center;
+}
+nav a{
+	position: relative;
+	color: aliceblue;
+	text-decoration: none;
+	padding: 16px 55px;
+	font-size: 1.5em;
+	text-transform: uppercase; 
+	display: inline-block; 
+}
+nav a:hover,
+section#s1:hover~nav a[href="#s1"],
+section#s2:hover~nav a[href="#s2"],
+section#s3:hover~nav a[href="#s3"]
+{
+	background:#0033CC;
+	color: #9999CC;
+}
