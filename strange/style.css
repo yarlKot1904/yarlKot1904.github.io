@@ -1,0 +1,181 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+h1,h2,h3,h4,h5,h6, p{
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+.leftSide{
+
+}
+nav{
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+}
+.name{
+	
+	font-weight: 500;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	position: relative;
+	vertical-align: 20px;
+	font-style: 16px;
+}
+.mail{
+	text-decoration: none;
+	color: darkred;
+}
+.firstAbz{
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 48px;
+}
+.paragraph1{
+	font-size: 30px;
+}
+.box1{
+	border-radius: 40px;
+	position: relative;
+	display: block;
+	margin-left: 10%;
+	margin-top: 100px;
+	padding: 15px;
+	max-width: 500px;
+}
+.btn{
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	padding: 10px;
+	position: relative;
+	display: block;
+	width: 200px;
+	text-align: center;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-left: 0px;
+	font-size: 20px;
+}
+.container1{
+	padding-bottom: 100px;
+	background-color: #ffb3ff;
+}
+.container2{
+	padding-bottom: 20px;
+
+}
+.box2{
+	background-image: url(img/Egor.jpg);
+	background-repeat: no-repeat;
+	margin-left: 20%;
+	min-height: 400px;
+	margin-top: 100px;
+	border-radius: 40px;
+	max-width: 1000px;
+}
+.box3{
+	margin: auto;
+	margin-top: 80px;
+	background-color: #ffb3ff;
+	padding: 50px;
+}
+.box4{	
+	margin: auto;
+	margin-top: 80px;
+	padding: 50px;
+	text-align: center;
+	background-color: skyblue;
+	width: 95%;
+}
+.paragraph2{
+
+	margin-left: 400px;
+	max-width: 400px;
+	color: grey;
+}
+.paragraph2>b{
+	color: black;
+	max-width: 400px;
+}
+.secondAbz{
+	padding-top: 20px;
+	margin-left: 350px;
+	max-width: 400px;
+}
+.thirdAbz{
+	text-align: center;
+	font-size: 30px;
+}
+.table{
+	position: relative;
+	widows: 300px;
+	margin: auto;
+
+	margin-top: 100px;
+}
+.table td{
+	color: grey;
+	padding: 0px 80px 0px 80px;
+	max-width: 350px;
+
+
+}
+.table td span b{
+	color: black;
+}
+.fourthAbz{
+	font-size: 40px;
+	font-weight: bold;
+	padding-bottom: 70px;
+}
+.paragraph3{
+	font-style: italic;
+	color: gray;
+	font-size: 25px;
+	max-width: 700px;
+	position: relative;
+	
+}
+.paragraph3 b{
+	color: #000;
+}
+.box4 div{
+	justify-content: center;
+	position: relative;
+	display: flex;
+	margin: auto;
+
+}
+footer{
+	height: 260px;
+	background-color: black;
+	color: gray;
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 28px	;
+}
+footer>div{
+	margin: 50px 100px 0 100px;
+}
+footer>div>a{
+	color: grey;
+	text-decoration: none;
+	font-size: 18px;
+}
+footer>div>a:hover{
+	text-decoration: underline;
+}
