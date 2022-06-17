@@ -120,15 +120,14 @@ nav{
 }
 .table{
 	position: relative;
-	widows: 300px;
 	margin: auto;
-
+	justify-content: space-between;
 	margin-top: 100px;
 }
 .table td{
 	color: grey;
-	padding: 0px 80px 0px 80px;
-	max-width: 350px;
+	/*padding: 0px 80px 0px 80px;*/
+	max-width: 200px;
 
 
 }
@@ -178,4 +177,26 @@ footer>div>a{
 }
 footer>div>a:hover{
 	text-decoration: underline;
+}
+@media (max-width: 600px){
+	.paragraph2{
+	max-width: 400px;
+	color: grey;
+	margin-left: 0px;
+	}
+	.paragraph2>b{
+		color: black;
+		max-width: 400px;
+	}
+	.secondAbz{
+		padding-top: 20px;
+		margin-left: 0px;
+		max-width: 400px;
+	}	
+	.box2{
+		padding-top: 600px;
+	}
+	footer>div{
+		margin: 25px 50px 0px 50px;
+	}
 }
